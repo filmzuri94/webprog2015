@@ -1,0 +1,69 @@
+body{
+	background-image: url('pic/resume-bg.jpg');
+	font-family: 'Sukhumvit Set';
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+h3{
+	background-color: #8f8f8f;
+	line-height: 0.8;
+}
+
+p{
+	line-height: 0.8;
+}
+table{
+	line-height: 0.8;
+}
+
+#profile{
+	position: relative;
+	margin-top: 20px;
+	margin-left: 10%;
+	width: 500px;
+	height: 445px;
+	background-image: url('pic/aboutme.png');
+	z-index: -1;
+}
+
+#content{
+	margin-left: 50px;
+	position: absolute;
+}
+
+
+#contact{
+	margin-top: 26px;
+	width: 100%-10px;
+	height: 60px;
+	background-color: #333;
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: right;
+	line-height: 1;
+	color: #cacaca;
+}
