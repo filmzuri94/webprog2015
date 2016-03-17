@@ -3,5 +3,9 @@ body{
 }
 
 table{
+	width: 750px;
+	height: 200px;
 	background-color: #C4C100;
+	margin-top: 500px;
+	margin-left: 300px;
 }
