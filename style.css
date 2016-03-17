@@ -1,11 +1,27 @@
 body{
-    background-image:url("/image/background.jpg");
+    background-image:url("image/background.jpg");
 }
 
 table{
-	width: 750px;
+	text-align: center;
+	width: 1000px;
 	height: 200px;
 	background-color: #C4C100;
-	margin-top: 500px;
-	margin-left: 300px;
+	margin-top: 370px;
+	margin-left: 183px;
+	border-radius: 20px;
+}
+td{
+	border-radius: 20px;
+}
+.box{
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	background-color: #3E5800;
+}
+img{
+	width: 200px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
