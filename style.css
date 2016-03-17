@@ -1,22 +1,25 @@
 body{
     background-image:url("image/background.jpg");
+    font-family: 'Impact';
+    color: white;
 }
 
 table{
 	text-align: center;
 	width: 1000px;
-	height: 200px;
+	height: 150px;
 	background-color: #C4C100;
 	margin-top: 370px;
 	margin-left: 183px;
 	border-radius: 20px;
+	position: absolute;
 }
 td{
 	border-radius: 20px;
 }
 .box{
 	width: 200px;
-	height: 200px;
+	height: 150px;
 	border-radius: 20px;
 	background-color: #3E5800;
 }
@@ -27,5 +30,11 @@ img{
 }
 #desc{
 	text-align: right;
-	font-weight: bold;
+	padding-right: 15px;
+}
+#text{
+	font-size: 70px;
+	margin-top: 300px;
+	margin-left: 683px;
+	position: absolute;
 }
